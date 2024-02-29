@@ -1,0 +1,40 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #e0ecff;
+    margin: 0;
+    padding: 0;
+}
+
+#corpo {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.resultado {
+    margin-top: 20px;
+}
